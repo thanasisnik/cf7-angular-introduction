@@ -22,4 +22,8 @@ export class EventBindExampleComponent {
     this.times = 0;
   }
 
+  onUserInput(e: Event){
+      this.userInput =  (<HTMLInputElement>e.target).value;
+  }
+
 }

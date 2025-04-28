@@ -4,10 +4,13 @@ import { ForDirectiveExampleComponent } from './components/for-directive-example
 import { EventBindExampleComponent } from './components/event-bind-example/event-bind-example.component';
 import { ComponentInputExampleComponent } from './components/component-input-example/component-input-example.component';
 
+import { SimpleDatatableExampleComponent } from './components/simple-datatable-example/simple-datatable-example.component';
+
 export const routes: Routes = [
     {path: 'for-directive-example', component: ForDirectiveExampleComponent },
     {path: 'event-bind-example', component: EventBindExampleComponent},
     {path: 'component-input-example', component: ComponentInputExampleComponent},
+    {path: 'simple-datatable-example', component: SimpleDatatableExampleComponent},
     {path:'welcome', component: WelcomeComponent},
     {path: '', redirectTo: '/welcome', pathMatch:'full'}
 ];
