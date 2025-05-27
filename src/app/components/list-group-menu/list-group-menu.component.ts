@@ -14,8 +14,11 @@ export class ListGroupMenuComponent {
     { text: '@for Directive Example', linkName : 'for-directive-example'},
     { text: 'Simple DataTable Example', linkName : 'simple-datatable-example'},
     { text: 'Component Output Example', linkName: 'component-output-example'},
-    { text: 'Template Driven Form Example', linkName: 'template-driven-form-example'}
+    { text: 'Template Driven Form Example', linkName: 'template-driven-form-example'},
+    { text: 'HTTP Client Example', linkName: 'http-client-example'},
+    { text: 'Reactive Form Example', linkName: 'reactive-form-example'},
+    { text: 'User Registration', linkName: 'user-registration-example'},
+    { text: 'User Login', linkName: 'login'}
 
   ]
-
 }
